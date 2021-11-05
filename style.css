@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+/* --- Start Main --- */
+
+hr {
+    display: block;
+    height: 50px;
+    border: 0;
+    border-top: 7px solid rgb(248, 247, 247);
+    margin: 1em 0;
+    padding: 0;
+}
+
+.main-h {
+ flex-direction: row;
+ display: flex;
+ order: 300;
+ justify-content: center;
+ color: white;
+ font-size: 100px;
+}
+
+@font-face {
+
+    font-family: freehand;
+    src: url(fonts/freehand.ttf);
+
+}
+.main-p {
+    flex-direction: row;
+    display: flex;
+    order: 300;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-family: freehand;
+    
+   }
+
+#user {
+    flex-direction: row-reverse;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid red  */
+}
+
+#signup {
+    height: 70px;
+    width: 150px;
+    padding: .25em .5em;
+    margin: 3px;
+    border: solid 1px white;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: greenyellow;
+    flex-direction:row-reverse;
+    justify-content: right;
+  }
+
+  #signup:hover {
+    border-color: white;
+    background-color: purple;
+    font-size: 220%;
+    text-align: center;
+    border-width: 3px;
+
+}
+
+
+  
+#login {
+    height: 70px;
+    width: 150px;
+    padding: .25em .5em;
+    margin: 3px;
+    border: solid 1px white;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    box-shadow: black;
+
+  }
+
+#login:hover {
+    border-color: white;
+    background-image: url("media/sahara.gif");
+    font-size: 220%;
+    border-width: 3px;
+}
+
+/* --- End Main --- */
+
+
+
+#wrapper {
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid red ;  */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  
+.button {
+    height: 69px;
+    width: 250px;
+    padding: .25em .5em;
+    border: solid 1px white;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+
+  }
+
+/* .button:hover,
+.button:focus {
+    cursor: pointer;
+    background-image: url("book.jpg");
+    color: #fff;
+} */
+
+
+#bt1:hover {
+    background-image: url("media/booking.gif");
+    background-size: 260px;
+    background-position: center;
+    border-color: white;
+    border-width: 2px;
+    font-size: 220%;
+
+
+}
+
+#bt2:hover {
+    background-image: url("media/clouds.gif");
+    background-size: 250px;
+    background-position: center;
+    border-color: white;
+    border-width: 2px;
+    font-size: 220%;
+
+    
+}
+
+#bt3:hover {
+    background-image: url("media/sea.gif");
+    background-size: 350px;
+    background-position-x: center;
+    border-color: white;
+    border-width: 2px;
+    font-size: 220%;
+}
+
+/* --- Article Start --- */
+
+#wrapper2 {
+    width: 100%;
+    height: 250px;
+    border: 1px solid red ;  
+    background-color: transparent;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: row;
+
+  }
+
+
+
+/* beta - gamma - zeta */
+
+
+
+#bookingpng {
+    width: 80px;
+    height: 80px;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: 110px;
+
+}
+
+#planelogo {
+    width: 110px;
+    height: 80px;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: 110px;
+}
+
+#locationpng {
+    width: 80px;
+    height: 80px;
+    flex-direction: row;
+    margin-top: 110px;
+}

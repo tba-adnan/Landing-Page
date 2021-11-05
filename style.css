@@ -193,8 +193,6 @@ hr {
 
 /* beta - gamma - zeta */
 
-
-
 #bookingpng {
     width: 80px;
     height: 80px;
@@ -217,4 +215,9 @@ hr {
     height: 80px;
     flex-direction: row;
     margin-top: 110px;
+}
+
+#beta {
+    flex-direction: row;
+    margin-top: 200px;
 }

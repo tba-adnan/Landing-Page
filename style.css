@@ -202,6 +202,11 @@ hr {
 
 }
 
+#bookingpng:hover {
+    width: 100px;
+    height: 100px;
+}
+
 #planelogo {
     width: 110px;
     height: 80px;
@@ -210,14 +215,51 @@ hr {
     margin-top: 110px;
 }
 
+#planelogo:hover {
+    width: 130px;
+    height: 100px;
+}
+
+
+
 #locationpng {
     width: 80px;
     height: 80px;
     flex-direction: row;
+    margin: 10px;
     margin-top: 110px;
 }
 
-#beta {
-    flex-direction: row;
-    margin-top: 200px;
+#locationpng:hover {
+    width: 100px;
+    height: 100px;
 }
+
+
+#wrapper2 div {
+    margin-left: 99px;
+    margin-right: 99px;
+}
+
+
+
+#beta {
+    color: white;
+}
+
+#gamma {
+    color: white;
+}
+
+#zeta {
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 1100px;
+ }

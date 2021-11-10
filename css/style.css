@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    /* background-image: url(/images/pexels-ella-olsson-1640774.jpg); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon {
+    color: #008600;
+    width: 11.5rem;
+    margin-top: 160px;
+}
+
+.center {
+    text-align: center;
+}
+
+svg {
+    fill: currentColor;
+}
+
+.title {
+    margin-top: 16px;
+    color: #008600;
+    text-align: center;
+    font-size: 3.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.sub-title {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    width: 100%;
+    font-weight: lighter;
+    color: #000000;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.cta-btn {
+ color: white;
+ background: #008600;   
+ border: black 2px;
+ padding: 1rem 7rem;
+ justify-content: center;
+ border-radius: 5px;
+ margin-top: 62px;
+ margin-bottom: 62px;
+}
+
+.cta-btn:hover {
+    cursor: pointer;
+    color: white;
+    border: solid black 3px;
+}
+
+.food-img{
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  height: auto;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.center-container {
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: #008600;
+}
+
+.text-container h2 {
+    font-size: 3.7rem;
+    text-align: center;
+    font-weight: 600;
+    color: #404851;
+}
+
+.text-container p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #404851;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.gallery {
+    background: #f5f5f6;
+}
